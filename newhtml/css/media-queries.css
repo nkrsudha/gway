@@ -1,3 +1,40 @@
+
+@media screen and (max-width:991px) {
+  .container {
+    width: 100%;
+}
+#contact-us .title {
+    padding-bottom: 20px;
+}
+.contact-form {
+    margin-bottom: 20px;
+}
+}
+@media screen and (max-width:768px) {
+  .banner-caption h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  #team-skills .col-md-3 {
+    width: 32%;
+}
+#footer.bg-one p { font-size: 12px;}
+#footer.bg-one .container-fluid { padding-left: 0; padding-right: 0; }
+}
+@media screen and (max-width:767px) {
+#footer.bg-one div {
+   width: 100%;
+   display: block;
+   text-align: center;
+}
+#team-skills .col-md-3 {
+    width: 100%;
+}
+.br-lft.border {
+    width: 30%;
+}
+    .modules img { margin-bottom: 15px;}
+}
 @media (min-width:980px) and (max-width:1150px){.parallax-section{background-position:center top !important;}
 #slitSlider .carousel-caption h2{font-size:60px;}
 .feature-desc h3{margin-top:0;}
@@ -50,7 +87,7 @@ h1{font-size:30px;}
 .navbar-brand{padding:10px 0 10px 10px;}
 .navbar-toggle{margin-top:22px;}
 .navbar-nav{margin:0 -15px;}
-.navbar-inverse .navbar-nav li a{line-height:45px;padding:0;text-align:center;border-bottom:1px solid transparent;}
+.navbar-inverse .navbar-nav li a{line-height:45px;padding:0;text-align:left; padding-left:20px;border-bottom:1px solid transparent;}
 .wrap-about{margin:0 auto 80px;width:85%;}
 .feature-desc a{margin:5px 5px 5px 0;}
 .counters-item{margin:0 auto 25px;width:270px;}
@@ -106,4 +143,17 @@ h1{font-size:30px;}
 .note{margin:0 auto 30px;width:75%;}
 .contact-info{width:100%;}
 .tab-post-nav li a{padding:10px 15px;}
+}
+@media screen and (max-width:480px) {
+  .banner-caption h2 {
+     font-size: 18px;
+     line-height: 26px;
+ }.title h2 {
+    font-size: 26px;
+}
+.banner-caption div {
+    padding-top: 18px;
+  }#logo img {
+    max-width: 218px;
+}
 }
